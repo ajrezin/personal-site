@@ -1,3 +1,8 @@
+## Known Bugs
+
+1. color mode toggle focus outline color isn't theme-dependent
+1. phantom color mode toggle focus outline
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">

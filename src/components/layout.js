@@ -4,12 +4,11 @@
  *
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
-
-import React from "react"
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
+import ColorModeToggle from "./colorModeToggle"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -24,25 +23,31 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
+    <div
+      style={{
+        display: 'flex',
+        minHeight: '100vh',
+        flexDirection: 'column',
+      }}>
+      <main
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer style={{
-          marginTop: `2rem`
+          flexGrow: 1,
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center'
         }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
-    </>
+        {children}
+      </main>
+      <footer
+        style={{
+          padding: '15px',
+          display: 'flex',
+          justifyContent: 'space-between',
+        }}>
+        &copy; {new Date().getFullYear()}, built with &hearts; by Ariel Rezin
+        <ColorModeToggle />
+      </footer>
+    </div>
   )
 }
 
