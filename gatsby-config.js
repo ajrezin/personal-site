@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ariel Rezin`,
-    description: `Learn a little about Ariel Rezin`,
+    description: `Ariel Rezin's personal and professional website.`,
     author: `@ariel rezin`,
   },
   plugins: [
