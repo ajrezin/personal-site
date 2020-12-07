@@ -12,7 +12,7 @@ export default function ColorModeToggle() {
     return (
         <IconButton
             aria-label='toggle color mode'
-            onClick={e => { setColorMode(nextColorMode) }}
+            onClick={() => { setColorMode(nextColorMode); }}
             sx={{
                 '&:focus': {
                     outlineStyle: 'dotted',
@@ -22,9 +22,10 @@ export default function ColorModeToggle() {
             }}
         >
             <DarkModeSwitch
+                moonColor={theme.colors.text}
+                sunColor={theme.colors.text}
+                onClick={() => { setColorMode(nextColorMode); }}
                 checked={colorMode === 'light' ? false : true}
-                moonColor='theme.colors.text'
-                sunColor='theme.colors.text'
             />
         </IconButton>
     );

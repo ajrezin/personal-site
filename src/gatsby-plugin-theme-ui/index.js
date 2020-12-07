@@ -5,7 +5,7 @@ export default {
         text: '#455300',
         background: '#f5f2e4',
         primary: '#b38423',
-        secondary: '#7c60cd',
+        secondary: '#7a6ac0',
         muted: '#dcd8cc',
         modes: {
             dark: {
