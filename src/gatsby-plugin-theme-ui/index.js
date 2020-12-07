@@ -2,10 +2,10 @@ export default {
     useColorSchemeMediaQuery: true,
     initialColorModeName: 'light',
     colors: {
-        text: '#4f4f4f',
+        text: '#455300',
         background: '#f5f2e4',
-        primary: '#B38423',
-        secondary: '#41473A',
+        primary: '#b38423',
+        secondary: '#7c60cd',
         muted: '#dcd8cc',
         modes: {
             dark: {
@@ -143,6 +143,6 @@ export default {
         },
         img: {
             maxWidth: '100%'
-        }
+        },
     }
 }

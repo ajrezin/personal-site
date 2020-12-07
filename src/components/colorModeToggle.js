@@ -1,28 +1,32 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { useColorMode } from 'theme-ui'
-import Toggle from 'react-toggle'
-import { FiSun, FiMoon } from 'react-icons/fi'
-import "./darkmodetoggle.css"
+import { useColorMode, IconButton, useThemeUI } from 'theme-ui'
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
 
 
 export default function ColorModeToggle() {
+    const { theme } = useThemeUI()
     const [colorMode, setColorMode] = useColorMode()
     const nextColorMode = colorMode === 'light' ? 'dark' : 'light'
+
     return (
-        <Toggle
-            checked={colorMode === 'light' ? false : true}
-            onChange={e => { setColorMode(nextColorMode) }}
+        <IconButton
             aria-label='toggle color mode'
-            icons={{
-                checked: <FiMoon />,
-                unchecked: <FiSun />,
-            }}
+            onClick={e => { setColorMode(nextColorMode) }}
             sx={{
-                '.react-toggle-track':
-                    { backgroundColor: 'muted' },
+                '&:focus': {
+                    outlineStyle: 'dotted',
+                    outlineWidth: '4px',
+                    outlineColor: 'secondary'
+                },
             }}
-        />
+        >
+            <DarkModeSwitch
+                checked={colorMode === 'light' ? false : true}
+                moonColor='theme.colors.text'
+                sunColor='theme.colors.text'
+            />
+        </IconButton>
     );
 }
 
