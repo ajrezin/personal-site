@@ -1,7 +1,11 @@
+## Todo
+
+1. Add accessibility statement page and suggestion form
+
 ## Known Bugs
 
-1. color mode toggle focus outline color isn't theme-dependent
-1. phantom color mode toggle focus outline
+1. color mode toggle focus outline color isn't theme-dependent (done)
+1. phantom color mode toggle focus outline (done)
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
