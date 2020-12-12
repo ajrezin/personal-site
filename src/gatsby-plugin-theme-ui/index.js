@@ -4,7 +4,7 @@ export default {
     colors: {
         text: '#455300',
         background: '#f5f2e4',
-        primary: '#b38423',
+        primary: '#be8938',
         secondary: '#7a6ac0',
         muted: '#dcd8cc',
         modes: {
@@ -45,7 +45,7 @@ export default {
         96
     ],
     fontWeights: {
-        body: 400,
+        body: 500,
         heading: 700,
         medium: 600,
         bold: 700
@@ -65,7 +65,7 @@ export default {
             fontFamily: 'heading',
             lineHeight: 'heading',
             fontWeight: 'heading',
-            fontSize: 5
+            fontSize: 10
         },
         h2: {
             color: 'text',
@@ -109,8 +109,7 @@ export default {
             lineHeight: 'body'
         },
         a: {
-            color: 'primary',
-            fontWeight: 'bold',
+            color: 'text',
             '&:focus': {
                 outlineStyle: 'dotted',
                 outlineWidth: '4px',
