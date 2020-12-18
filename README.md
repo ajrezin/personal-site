@@ -1,6 +1,9 @@
 ## Todo
 
-1. Add suggestion form
+1. Add contact form link
+1. Remove nav link underlines
+1. Add hover effect to nav links
+1. Add active variant for nav links
 
 ## Known Bugs
 
