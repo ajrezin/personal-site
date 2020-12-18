@@ -1,13 +1,12 @@
 ## Todo
 
 1. Add suggestion form
-1. Make titles responsive and mobile friendly
-1. Make navbar (aka footer lol) responsive and mobile friendly
 
 ## Known Bugs
 
-1. color mode toggle focus outline color isn't theme-dependent (done)
-1. phantom color mode toggle focus outline (done)
+1. Make titles responsive and mobile friendly
+1. Make navbar (aka footer lol) responsive and mobile friendly
+1. flash of light when loading page on dark mode... common issue, should be an easy fix
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
