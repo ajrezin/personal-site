@@ -1,10 +1,11 @@
-import React from 'react'
-import { Box, Flex } from "theme-ui"
-
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
+import { Flex, IconButton } from "theme-ui"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Styled } from 'theme-ui'
-import { MdOpenInNew } from 'react-icons/md'
+import OpenLinkInNewTab from '../components/openLinkInNewTab'
+import { FiGithub, FiLinkedin } from 'react-icons/fi'
 
 const IndexPage = () => (
   <Layout>
@@ -16,28 +17,52 @@ const IndexPage = () => (
         alignItems: 'center',
         width: ['90%', '50%', '50%'],
       }}>
-      <h1>Hi, I'm Ariel!</h1>
-      <p style={{ fontWeight: 'bold' }}>
+      <h1 sx={{ fontSize: 7, marginBottom: 0, letterSpacing: 2 }}>
+        Hi, I'm Ariel
+      </h1>
+
+      <div sx={{ fontWeight: 'bold', marginBottom: 3 }}>
         <Styled.a href="https://pronoun.is/she/her">pronoun.is/she</Styled.a>
         &nbsp;or&nbsp;
         <Styled.a href="https://pronoun.is/they/them">pronoun.is/they</Styled.a>
-      </p>
-      <span role='region' style={{ textAlign: 'center' }}>
+      </div>
+
+      <div role='region' style={{ textAlign: 'center' }}>
         <p>
           I'm a software developer with a passion for any project that makes the world more accessible and
-          inclusive. I currently work as a developer on the portals team at&nbsp;
-          <Styled.a target="_blank" href="https://sentry.com">Sentry Inc.<MdOpenInNew aria-label="Opens in a new window" size={12} /></Styled.a>
-          &nbsp;and study Computer Science, Disability Rights & Services, and German at the University of Wisconsin-Madison.
+          inclusive.
         </p>
+
+        <p>
+          I'm a developer at&nbsp;
+          <OpenLinkInNewTab link="https://sentry.com" text="Sentry Inc." />
+          &nbsp;and study Computer Science, Disability Rights & Services, and German at the University of
+          Wisconsin-Madison.
+        </p>
+
         <p>
           When I'm not busy hammocking or&nbsp;
-        <Styled.a href="https://fetchwi.org/doggos/morgan">fostering dogs<MdOpenInNew aria-label="Opens Ariel's foster dog in a new window" size={12} /></Styled.a>
-        , I spend my time going down rabbit holes while working on personal projects.
+          <OpenLinkInNewTab link="https://fetchwi.org/doggos/morgan" text="fostering dogs" />
+          , I spend my time going down research rabbit holes and working on personal projects.
         </p>
-        <Styled.a target="_blank" href="https://resume.arielrezin.com">Resume<MdOpenInNew aria-label="Opens Ariel's resume in a new window" size={12} /></Styled.a>
-        <Styled.a href="https://github.com/arielrezinn">Github<MdOpenInNew aria-label="Opens in a new window" size={12} /></Styled.a>
-        <Styled.a href="https://linkedin.com/in/arielrezin">LinkedIn <MdOpenInNew aria-label="Opens Ariel's profile in a new window" size={12} /></Styled.a>.
-      </span>
+      </div>
+      <div sx={{ marginTop: 4 }}>
+        <IconButton
+          sx={{ cursor: 'pointer' }}
+          variant="focus"
+          aria-label="github"
+          onClick={() => { window.open('https://github.com/arielrezinn') }}>
+          <FiGithub size="24" />
+        </IconButton>
+
+        <IconButton
+          sx={{ cursor: 'pointer' }}
+          variant="focus"
+          aria-label="linkedin"
+          onClick={() => { window.open('https://linkedin.com/in/arielrezin') }}>
+          <FiLinkedin size="24" />
+        </IconButton>
+      </div>
     </Flex>
   </Layout >
 )

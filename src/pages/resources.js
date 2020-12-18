@@ -16,9 +16,9 @@ const ResourcePage = () => (
         alignItems: 'center',
         width: ['90%', '50%', '50%'],
       }}>
-      <h2>Hi, I'm Ariel!</h2>
+      <h2>There's some lovely content on the internet, here's a collection of some of my favorites!</h2>
       <p role='region' style={{ textAlign: 'center' }}>
-        There's some lovely
+        Coming soon :)
       </p>
     </Flex>
   </Layout >

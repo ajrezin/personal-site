@@ -4,15 +4,15 @@ export default {
     colors: {
         text: '#455300',
         background: '#f5f2e4',
-        primary: '#be8938',
+        primary: '#996f00',
         secondary: '#7a6ac0',
         muted: '#dcd8cc',
         modes: {
             dark: {
                 text: '#FCFCDC',
                 background: '#41473A',
-                primary: '#cfa13e',
-                secondary: '#c1a6e3',
+                primary: '#ecb64b',
+                secondary: '#a499fe',
                 muted: '#606a57',
             }
         },
@@ -54,18 +54,26 @@ export default {
         body: 1.5,
         heading: 1.125
     },
+    focus: {
+        '&:focus': {
+            outlineStyle: 'dotted',
+            outlineWidth: '4px',
+            outlineColor: 'secondary'
+        },
+    },
     styles: {
         root: {
             fontFamily: 'body',
             lineHeight: 'body',
-            fontWeight: 'body'
+            fontWeight: 'body',
         },
         h1: {
             color: 'text',
             fontFamily: 'heading',
             lineHeight: 'heading',
             fontWeight: 'heading',
-            fontSize: 10
+            fontSize: 5
+
         },
         h2: {
             color: 'text',
@@ -109,39 +117,21 @@ export default {
             lineHeight: 'body'
         },
         a: {
-            color: 'text',
-            '&:focus': {
-                outlineStyle: 'dotted',
-                outlineWidth: '4px',
-                outlineColor: 'secondary'
-            },
-        },
-        pre: {
-            fontFamily: 'monospace',
-            overflowX: 'auto',
-            code: {
-                color: 'inherit'
-            }
+            color: 'primary',
+            variant: "focus"
         },
         code: {
             fontFamily: 'monospace',
             fontSize: 'inherit'
         },
-        table: {
-            width: '100%',
-            borderCollapse: 'separate',
-            borderSpacing: 0
-        },
-        th: {
-            textAlign: 'left',
-            borderBottomStyle: 'solid'
-        },
-        td: {
-            textAlign: 'left',
-            borderBottomStyle: 'solid'
-        },
         img: {
             maxWidth: '100%'
         },
+        navLink: {
+            variant: 'focus',
+            color: 'primary',
+            fontWeight: 'bold',
+            fontSize: '20px',
+        }
     }
 }
