@@ -1,5 +1,6 @@
 ## Todo
 
+1. Increase copyright statement size
 1. Add contact form link
 1. Remove nav link underlines
 1. Add hover effect to nav links
