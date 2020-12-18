@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
           display: 'flex',
           justifyContent: 'space-between',
         }}>
-        &copy; {new Date().getFullYear()}, built with &hearts; by Ariel Rezin
+        <span style={{ fontSize: '12px' }}>&copy; {new Date().getFullYear()}, built with &hearts; by Ariel Rezin</span>
         <Link to='/' sx={{ variant: 'styles.navLink' }}>Home</Link>
         <Link to='/resources' sx={{ variant: 'styles.navLink' }}>Resources</Link>
         <Link to='/accessibility' sx={{ variant: 'styles.navLink' }}>Accessibility</Link>

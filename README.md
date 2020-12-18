@@ -1,6 +1,8 @@
 ## Todo
 
-1. Add accessibility statement page and suggestion form
+1. Add suggestion form
+1. Make titles responsive and mobile friendly
+1. Make navbar (aka footer lol) responsive and mobile friendly
 
 ## Known Bugs
 
