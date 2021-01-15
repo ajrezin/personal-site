@@ -3,8 +3,6 @@ import { Flex } from "theme-ui"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Styled } from 'theme-ui'
-import { MdOpenInNew } from 'react-icons/md'
 
 const ResourcePage = () => (
   <Layout>

@@ -7,20 +7,19 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql, Link } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 import NavContent from "./navContent"
-//import Footer from "./navFooter"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query SiteTitleQuery {
+  //     site {
+  //       siteMetadata {
+  //         title
+  //       }
+  //     }
+  //   }
+  // `)
 
   return (
     <div
@@ -39,7 +38,7 @@ const Layout = ({ children }) => {
         {children}
       </main>
       <footer
-        style={{
+        sx={{
           padding: '15px',
           display: 'flex',
           flexWrap: 'wrap',
@@ -47,7 +46,7 @@ const Layout = ({ children }) => {
         }}>
         <NavContent />
       </footer>
-    </div>
+    </div >
   )
 }
 
