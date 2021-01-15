@@ -8,7 +8,8 @@
 import { jsx } from 'theme-ui'
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import ColorModeToggle from "./colorModeToggle"
+import NavContent from "./navContent"
+//import Footer from "./navFooter"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -41,14 +42,10 @@ const Layout = ({ children }) => {
         style={{
           padding: '15px',
           display: 'flex',
+          flexWrap: 'wrap',
           justifyContent: 'space-between',
         }}>
-        <span style={{ fontSize: '12px' }}>&copy; {new Date().getFullYear()}, built with &hearts; by Ariel Rezin</span>
-        <Link to='/' sx={{ variant: 'styles.navLink' }}>Home</Link>
-        <Link to='/resources' sx={{ variant: 'styles.navLink' }}>Resources</Link>
-        <Link to='/accessibility' sx={{ variant: 'styles.navLink' }}>Accessibility</Link>
-        <a href="https://resume.arielrezin.com" sx={{ variant: 'styles.navLink' }}>Resume</a>
-        <ColorModeToggle />
+        <NavContent />
       </footer>
     </div>
   )
