@@ -54,11 +54,14 @@ export default {
         body: 1.5,
         heading: 1.125
     },
-    focus: {
+    link: {
         '&:focus': {
             outlineStyle: 'dotted',
             outlineWidth: '4px',
             outlineColor: 'secondary'
+        },
+        '&:hover': {
+            color: 'text',
         },
     },
     styles: {
@@ -118,7 +121,7 @@ export default {
         },
         a: {
             color: 'primary',
-            variant: "focus"
+            variant: "link"
         },
         code: {
             fontFamily: 'monospace',
@@ -128,7 +131,7 @@ export default {
             maxWidth: '100%'
         },
         navLink: {
-            variant: 'focus',
+            variant: 'link',
             color: 'primary',
             fontWeight: 'bold',
             fontSize: '20px',

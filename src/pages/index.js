@@ -41,24 +41,26 @@ const IndexPage = () => (
         </p>
 
         <p>
-          When I'm not busy hammocking or&nbsp;
-          <OpenLinkInNewTab link="https://fetchwi.org/doggos/morgan" text="fostering dogs" />
-          , I spend my time going down research rabbit holes and working on personal projects.
+          When I'm not busy&nbsp;
+          <OpenLinkInNewTab link="https://youbrewkombucha.com/kombucha-quick-start-guide" text="making kombucha" />,
+          hammocking, or&nbsp;
+          <OpenLinkInNewTab link="https://fetchwi.org/doggos/vinny" text="fostering dogs" />
+          , I spend my time going down rabbit holes and working on personal projects.
         </p>
       </div>
       <div sx={{ marginTop: 4 }}>
         <IconButton
-          sx={{ cursor: 'pointer' }}
+          sx={{ cursor: 'pointer', '&:hover': { color: 'primary' } }}
           variant="focus"
-          aria-label="github"
+          aria-label="github opens in new tab"
           onClick={() => { window.open('https://github.com/arielrezinn') }}>
           <FiGithub size="24" />
         </IconButton>
 
         <IconButton
-          sx={{ cursor: 'pointer' }}
+          sx={{ cursor: 'pointer', '&:hover': { color: 'primary' } }}
           variant="focus"
-          aria-label="linkedin"
+          aria-label="linkedin opens in new tab"
           onClick={() => { window.open('https://linkedin.com/in/arielrezin') }}>
           <FiLinkedin size="24" />
         </IconButton>
