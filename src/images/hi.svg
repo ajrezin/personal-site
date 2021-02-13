@@ -1,0 +1,63 @@
+<svg version="1.1" id="hi-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve" role="img" aria-label="Hi, I'm Ariel" focusable="false">
+<style>
+.cls-1{stroke:#a499fe;}
+#hi-svg {
+  stroke-linecap: round;
+  padding: 0.25rem;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 5s linear forwards;
+  animation: dash 5s linear forwards;
+  overflow: visible;
+  font-size: 100px;
+  height: 0;
+  margin: 10rem 0 5rem;
+  transform: rotate(270deg);
+  left: -21.6rem;
+  top: 15rem;
+  position: relative;
+}
+@media (prefers-reduced-motion: reduce) {
+  #hi-svg {
+    animation: none;
+    fill: #a499fe;
+  }
+}
+#hi-svg-design {
+  cursor: pointer;
+  stroke-width: 2px;
+}
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+    fill:transparent;
+  }
+  
+  to {
+    stroke-dashoffset: 0;
+    fill: #a499fe;
+  }
+}
+@media (max-width: 1000px) {
+  #hi-svg {
+    font-size: 50px;
+    height: 0;
+    margin: 4.5rem 0 2.5rem;
+    transform: rotate(0deg);
+    left: 0;
+    top: 0;
+  }
+  
+  #hi-svg-design {
+    stroke-width: 1px;
+  }
+  
+  #hi-svg-design:hover {
+    stroke-width: 1px;
+  }
+}
+</style>
+        <g id="hi-svg-design">
+        	<text aria-hidden="true" class="cls-1">Hi, I' Ariel</text>
+        </g>
+      </svg>

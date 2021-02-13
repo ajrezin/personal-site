@@ -43,6 +43,8 @@ const Layout = ({ children }) => {
           display: 'flex',
           flexWrap: 'wrap',
           justifyContent: 'space-between',
+          flexDirection: ['column', 'row'],
+          alignItems: 'center'
         }}>
         <NavContent />
       </footer>

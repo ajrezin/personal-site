@@ -51,7 +51,7 @@ const IndexPage = () => (
       <div sx={{ marginTop: 4 }}>
         <IconButton
           sx={{ cursor: 'pointer', '&:hover': { color: 'primary' } }}
-          variant="focus"
+          variant="link"
           aria-label="github opens in new tab"
           onClick={() => { window.open('https://github.com/arielrezinn') }}>
           <FiGithub size="24" />
@@ -59,7 +59,7 @@ const IndexPage = () => (
 
         <IconButton
           sx={{ cursor: 'pointer', '&:hover': { color: 'primary' } }}
-          variant="focus"
+          variant="link"
           aria-label="linkedin opens in new tab"
           onClick={() => { window.open('https://linkedin.com/in/arielrezin') }}>
           <FiLinkedin size="24" />

@@ -19,6 +19,9 @@ export default function ColorModeToggle() {
                     outlineWidth: '4px',
                     outlineColor: 'secondary'
                 },
+                '&:hover': {
+                    color: 'primary'
+                },
             }}
         >
             <DarkModeSwitch
