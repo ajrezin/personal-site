@@ -29,7 +29,7 @@ const IndexPage = () => (
 
       <div role='region' style={{ textAlign: 'center' }}>
         <p>
-          I&apos;m a software developer with a passion for any project that makes the world more accessible and
+          I&apos;m a queer disabled software developer with a passion for any project that makes the world more accessible and
           inclusive.
         </p>
 
@@ -47,7 +47,7 @@ const IndexPage = () => (
           <OpenLinkInNewTab link="https://www.instagram.com/gilthepoodle/" text="my dog" />
           , or trying to keep&nbsp;
           <OpenLinkInNewTab link="https://greg.app/ariel/" text="my plants" />
-          &nbsp;alive, I spend my time going down rabbit holes and working on personal projects.
+          &nbsp;alive, I spend my time going down research rabbit holes and working on personal projects.
         </p>
       </div>
       <div sx={{ marginTop: 4 }}>

@@ -1,17 +1,17 @@
 ## Todo
 
-1. Increase copyright statement size
-1. Add contact form link
+1. Add an easily-accessible way to contact me
 1. Remove nav link underlines
-1. Add hover effect to nav links
 1. Add active variant for nav links
+1. Add hover effect to nav links
+1. Add skip link at top of page to go to nav/footer
+1. Redo landing page with a photo of ME !
 
 ## Known Bugs
 
 1. Make titles responsive and mobile friendly
 1. Make navbar (aka footer lol) responsive and mobile friendly
 1. flash of light when loading page on dark mode... common issue, should be an easy fix
-1. add skip link at top of page to go to nav/footer
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">

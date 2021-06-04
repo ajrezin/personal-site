@@ -11,7 +11,7 @@ const NavContent = () => (
         <Link to='/resources' sx={{ variant: 'styles.navLink' }}>Resources</Link>
         <Link to='/accessibility' sx={{ variant: 'styles.navLink' }}>Accessibility</Link>
         <a href="https://resume.arielrezin.com" sx={{ variant: 'styles.navLink' }}>Resume</a>
-        <span style={{ fontSize: '12px', marginTop: 'auto' }}>&copy; {new Date().getFullYear()}, built with &hearts; by Ariel Rezin</span>
+        <span sx={{ fontSize: 1 }}>&copy; {new Date().getFullYear()}, built with &hearts; by Ariel Rezin</span>
     </>
 )
 
