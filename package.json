@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Ariel Rezin",
   "dependencies": {
+    "@reach/skip-nav": "^0.15.0",
     "@theme-ui/presets": "^0.9.1",
     "gatsby": "^3.6.2",
     "gatsby-image": "^3.6.0",

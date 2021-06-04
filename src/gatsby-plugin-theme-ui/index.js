@@ -64,6 +64,15 @@ export default {
             color: 'text',
         },
     },
+    skipLink: {
+        '&:focus': {
+            outlineStyle: 'dotted',
+            outlineWidth: '6px',
+            outlineColor: 'secondary',
+            backgroundColor: 'text',
+            color: 'background'
+        },
+    },
     styles: {
         root: {
             fontFamily: 'body',
@@ -135,6 +144,6 @@ export default {
             color: 'primary',
             fontWeight: 'bold',
             fontSize: '20px',
-        }
+        },
     }
 }

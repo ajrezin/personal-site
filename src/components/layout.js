@@ -8,6 +8,8 @@
 import { jsx } from 'theme-ui'
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
+import { SkipNavLink, SkipNavContent } from "@reach/skip-nav";
+import "@reach/skip-nav/styles.css";
 import NavContent from "./navContent"
 
 const Layout = ({ children }) => {
@@ -35,6 +37,9 @@ const Layout = ({ children }) => {
           justifyContent: 'center',
           alignItems: 'center'
         }}>
+        <SkipNavLink sx={{ variant: 'skipLink' }}>
+          Skip to navigation bar
+        </SkipNavLink>
         {children}
       </main>
       <footer
@@ -46,6 +51,7 @@ const Layout = ({ children }) => {
           flexDirection: ['column', 'row'],
           alignItems: 'center'
         }}>
+        <SkipNavContent />
         <NavContent />
       </footer>
     </div >
