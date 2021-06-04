@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint", // uses babel-eslint transforms
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "node": true, // defines things like process.env when generating through node
+    "browser": true
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/prop-types": "off",
+    "no-unused-vars": "off"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/strict"
+  ]
+}

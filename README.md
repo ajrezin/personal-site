@@ -11,6 +11,7 @@
 1. Make titles responsive and mobile friendly
 1. Make navbar (aka footer lol) responsive and mobile friendly
 1. flash of light when loading page on dark mode... common issue, should be an easy fix
+1. add skip link at top of page to go to nav/footer
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">

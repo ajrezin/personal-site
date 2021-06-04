@@ -14,7 +14,7 @@ const ResourcePage = () => (
         alignItems: 'center',
         width: ['90%', '50%', '50%'],
       }}>
-      <h2>There's some lovely content on the internet, here's a collection of some of my favorites!</h2>
+      <h2>There&apos;s some lovely content on the internet, here&apos;s a collection of some of my favorites!</h2>
       <p role='region' style={{ textAlign: 'center' }}>
         Coming soon :)
       </p>

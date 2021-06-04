@@ -19,7 +19,7 @@ const A11yPage = () => (
       <span role='region' style={{ textAlign: 'center' }}>
         <p>
           I make every effort to make this site accessible, and am following WCAG AA standards.
-          That said, I'm still learning! If you find anything that isn't accessible, please reach out.
+          That said, I&apos;m still learning! If you find anything that isn&apos;t accessible, please reach out.
         </p>
       </span>
     </Flex>

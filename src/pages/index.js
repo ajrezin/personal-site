@@ -18,34 +18,36 @@ const IndexPage = () => (
         width: ['90%', '50%', '50%'],
       }}>
       <h1 sx={{ fontSize: 7, marginBottom: 0, letterSpacing: 2 }}>
-        Hi, I'm Ariel
+        Hi, I&apos;m Ariel
       </h1>
 
       <div sx={{ fontWeight: 'bold', marginBottom: 3 }}>
-        <Styled.a href="https://pronoun.is/she/her">pronoun.is/she</Styled.a>
-        &nbsp;or&nbsp;
         <Styled.a href="https://pronoun.is/they/them">pronoun.is/they</Styled.a>
+        &nbsp;or&nbsp;
+        <Styled.a href="https://pronoun.is/she/her">pronoun.is/she</Styled.a>
       </div>
 
       <div role='region' style={{ textAlign: 'center' }}>
         <p>
-          I'm a software developer with a passion for any project that makes the world more accessible and
+          I&apos;m a software developer with a passion for any project that makes the world more accessible and
           inclusive.
         </p>
 
         <p>
-          I'm a developer at&nbsp;
+          I&apos;m a developer at&nbsp;
           <OpenLinkInNewTab link="https://sentry.com" text="Sentry Inc." />
           &nbsp;and study Computer Science, Disability Rights & Services, and German at the University of
           Wisconsin-Madison.
         </p>
 
         <p>
-          When I'm not busy&nbsp;
+          When I&apos;m not busy&nbsp;
           <OpenLinkInNewTab link="https://youbrewkombucha.com/kombucha-quick-start-guide" text="making kombucha" />,
-          hammocking, or&nbsp;
-          <OpenLinkInNewTab link="https://fetchwi.org/doggos/vinny" text="fostering dogs" />
-          , I spend my time going down rabbit holes and working on personal projects.
+          working with&nbsp;
+          <OpenLinkInNewTab link="https://www.instagram.com/gilthepoodle/" text="my dog" />
+          , or trying to keep&nbsp;
+          <OpenLinkInNewTab link="https://greg.app/ariel/" text="my plants" />
+          &nbsp;alive, I spend my time going down rabbit holes and working on personal projects.
         </p>
       </div>
       <div sx={{ marginTop: 4 }}>
