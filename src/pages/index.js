@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui'
 import { Flex, IconButton } from "theme-ui"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Styled } from 'theme-ui'
+import { Themed } from 'theme-ui'
 import OpenLinkInNewTab from '../components/openLinkInNewTab'
 import { FiGithub, FiLinkedin } from 'react-icons/fi'
 
@@ -22,9 +22,9 @@ const IndexPage = () => (
       </h1>
 
       <div sx={{ fontWeight: 'bold', marginBottom: 3 }}>
-        <Styled.a href="https://pronoun.is/they/them">pronoun.is/they</Styled.a>
+        <Themed.a href="https://pronoun.is/they/them">pronoun.is/they</Themed.a>
         &nbsp;or&nbsp;
-        <Styled.a href="https://pronoun.is/she/her">pronoun.is/she</Styled.a>
+        <Themed.a href="https://pronoun.is/she/her">pronoun.is/she</Themed.a>
       </div>
 
       <div role='region' style={{ textAlign: 'center' }}>
