@@ -23,6 +23,7 @@ const ResourcePage = () => (
         <OpenLinkInNewTab link="https://www.w3.org/TR/WCAG/" text="https://www.w3.org/TR/WCAG/" /><br />
         <OpenLinkInNewTab link="https://www.a11yproject.com/content-style-guide/" text="https://www.a11yproject.com/content-style-guide/" /><br />
         <OpenLinkInNewTab link="https://a11y-style-guide.com/style-guide/" text="https://a11y-style-guide.com/style-guide/" /><br />
+        <OpenLinkInNewTab link="https://psa.arielrezin.com" text="https://psa.arielrezin.com" /><br />
         <OpenLinkInNewTab link="https://webaim.org/blog/target-lawsuit-settled/" text="https://webaim.org/blog/target-lawsuit-settled/" /><br />
         <OpenLinkInNewTab link="https://www.lflegal.com/2019/01/dominos-ninth-circuit/" text="https://www.lflegal.com/2019/01/dominos-ninth-circuit/" /><br />
       </div>

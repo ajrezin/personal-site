@@ -17,7 +17,7 @@ const IndexPage = () => (
         alignItems: 'center',
         width: ['90%', '50%', '50%'],
       }}>
-      <h1 sx={{ fontSize: 7, marginBottom: 0, letterSpacing: 2 }}>
+      <h1 sx={{ fontSize: 7, marginBottom: 0, letterSpacing: 2, textAlign: 'center' }}>
         Hi, I&apos;m Ariel
       </h1>
 

@@ -1,16 +1,14 @@
 ## Todo
 
-1. Add skip link at top of page to go to nav/footer
 1. Add an easily-accessible way to contact me
 1. Redo landing page with a photo of ME !
+1. Make the navbar a responsive segment that's mobile friendly and never requires scrolling to view
 1. Remove navbar link underlines
 1. Add active variant for navbar links
 1. Add hover effect to navbar links ??
 
 ## Known Bugs
 
-1. Make titles responsive and mobile friendly
-1. Make navbar (aka footer lol) responsive and mobile friendly
 1. flash of light when loading page
    - especially noticeable on dark mode
    - common issue, should be an easy fix
