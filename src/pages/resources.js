@@ -17,7 +17,7 @@ const ResourcePage = () => (
       }}>
 
       <div role='region'>
-        <h2>Web A11y</h2>
+        <h1>Web A11y</h1>
         <OpenLinkInNewTab link="https://a11y.coffee/" text="https://a11y.coffee/" /><br />
         <OpenLinkInNewTab link="https://www.a11yproject.com/checklist/" text="https://www.a11yproject.com/checklist/" /><br />
         <OpenLinkInNewTab link="https://www.w3.org/TR/WCAG/" text="https://www.w3.org/TR/WCAG/" /><br />
