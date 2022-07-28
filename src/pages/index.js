@@ -22,9 +22,7 @@ const IndexPage = () => (
       </h1>
 
       <div sx={{ fontWeight: 'bold', marginBottom: 3 }}>
-        <Themed.a href="https://pronoun.is/they/them">pronoun.is/they</Themed.a>
-        &nbsp;or&nbsp;
-        <Themed.a href="https://pronoun.is/she/her">pronoun.is/she</Themed.a>
+        <Themed.a href="https://pronoun.is/they/">pronoun.is/they/them</Themed.a>
       </div>
 
       <div role='region' style={{ textAlign: 'center' }}>
