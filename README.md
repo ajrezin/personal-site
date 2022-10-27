@@ -1,5 +1,6 @@
 ## Todo
 
+1. Figure out the dependency issues so I can finally update my pronouns from they/she to they/them
 1. Add an easily-accessible way to contact me
 1. Redo landing page with a photo of ME !
 1. Make the navbar a responsive segment that's mobile friendly and never requires scrolling to view
