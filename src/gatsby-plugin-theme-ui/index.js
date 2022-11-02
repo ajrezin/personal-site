@@ -4,7 +4,7 @@ export default {
     colors: {
         text: '#455300',
         background: '#f5f2e4',
-        primary: '#664B00',
+        primary: '#ba7d04',
         secondary: '#7a6ac0',
         muted: '#dcd8cc',
         modes: {

@@ -7,6 +7,7 @@
 1. Remove navbar link underlines
 1. Add active variant for navbar links
 1. Add hover effect to navbar links ??
+1. Create a way to automatically display and filter cool sites/resources
 
 ## Known Bugs
 
