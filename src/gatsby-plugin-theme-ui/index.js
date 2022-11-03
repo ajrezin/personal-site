@@ -6,14 +6,14 @@ export default {
         background: '#f5f2e4',
         primary: '#ba7d04',
         secondary: '#7a6ac0',
-        muted: '#dcd8cc',
+        muted: '#e9e1c9',
         modes: {
             dark: {
                 text: '#FCFCDC',
                 background: '#41473A',
                 primary: '#ecb64b',
                 secondary: '#a499fe',
-                muted: '#3e572a',
+                muted: '#525c4a',
             }
         },
     },

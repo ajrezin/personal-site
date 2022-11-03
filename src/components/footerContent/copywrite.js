@@ -8,7 +8,6 @@ const Copywrite = () => (
             sx={{
                 width: '100%',
                 justifyContent: 'end',
-                padding: '10px 0px 0px',
                 // display: { md: 'none' },
                 display: ['none', 'none', 'Flex'],
             }}>
