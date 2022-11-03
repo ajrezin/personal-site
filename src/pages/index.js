@@ -11,7 +11,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Flex
-      role='main'
       sx={{
         flexDirection: 'column',
         alignItems: 'center',
