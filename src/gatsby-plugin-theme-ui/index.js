@@ -73,6 +73,18 @@ export default {
             color: 'background'
         },
     },
+    buttons: {
+        icon: {
+            '&:focus': {
+                outlineStyle: 'dotted',
+                outlineWidth: '4px',
+                outlineColor: 'secondary'
+            },
+            '&:hover': {
+                color: 'primary'
+            },
+        },
+    },
     styles: {
         root: {
             fontFamily: 'body',

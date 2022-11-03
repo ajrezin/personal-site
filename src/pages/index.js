@@ -4,7 +4,7 @@ import { Flex, IconButton } from "theme-ui"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Themed } from 'theme-ui'
-import OpenLinkInNewTab from '../components/openLinkInNewTab'
+import LinkOpensInNewTab from '../components/buildingBlocks/linkOpensInNewTab'
 import { FiGithub, FiLinkedin } from 'react-icons/fi'
 
 const IndexPage = () => (
@@ -33,18 +33,18 @@ const IndexPage = () => (
 
         <p>
           I&apos;m a developer at&nbsp;
-          <OpenLinkInNewTab link="https://sentry.com" text="Sentry Inc." />
+          <LinkOpensInNewTab link="https://sentry.com" text="Sentry Inc." />
           &nbsp;and study Computer Science, Disability Rights & Services, and German at the University of
           Wisconsin-Madison.
         </p>
 
         <p>
           When I&apos;m not busy&nbsp;
-          <OpenLinkInNewTab link="https://youbrewkombucha.com/kombucha-quick-start-guide" text="making kombucha" />,
+          <LinkOpensInNewTab link="https://youbrewkombucha.com/kombucha-quick-start-guide" text="making kombucha" />,
           working with&nbsp;
-          <OpenLinkInNewTab link="https://www.instagram.com/gilthepoodle/" text="my dog" />
+          <LinkOpensInNewTab link="https://www.instagram.com/gilthepoodle/" text="my dog" />
           , or trying to keep&nbsp;
-          <OpenLinkInNewTab link="https://greg.app/ariel/" text="my plants" />
+          <LinkOpensInNewTab link="https://greg.app/ariel/" text="my plants" />
           &nbsp;alive, I spend my time going down research rabbit holes and working on personal projects.
         </p>
       </div>

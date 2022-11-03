@@ -5,12 +5,14 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
+import { Flex, jsx } from 'theme-ui'
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 import { SkipNavLink, SkipNavContent } from "@reach/skip-nav";
 import "@reach/skip-nav/styles.css";
-import NavContent from "./navContent"
+import NavbarWeb from "./footerContent/navbarWeb"
+import NavbarMobile from "./footerContent/navbarMobile"
+import Copywrite from "./footerContent/copywrite"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -44,15 +46,18 @@ const Layout = ({ children }) => {
       </main>
       <footer
         sx={{
-          padding: '15px',
+          padding: '15px 15px 5px',
           display: 'flex',
           flexWrap: 'wrap',
           justifyContent: 'space-between',
-          flexDirection: ['column', 'row'],
-          alignItems: 'center'
+          alignItems: 'center',
+          flexDirection: 'column',
+          // flexDirection: ['column', 'row'],
         }}>
         <SkipNavContent />
-        <NavContent />
+        <NavbarWeb />
+        {/* <NavbarMobile /> */}
+        <Copywrite />
       </footer>
     </div >
   )
