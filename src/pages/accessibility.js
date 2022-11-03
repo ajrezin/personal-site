@@ -18,7 +18,7 @@ const A11yPage = () => (
       <h2>(A11y)</h2>
       <span role='region' style={{ textAlign: 'center' }}>
         <p>
-          I make every effort to make this site accessible, and am following WCAG AA standards.
+          I make every effort to make this site accessible and adhere to WCAG 2.1 AA standards.
           That said, I&apos;m still learning! If you find anything that isn&apos;t accessible, please reach out.
         </p>
       </span>

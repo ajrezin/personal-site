@@ -156,10 +156,11 @@ export default {
             color: 'text',
             fontWeight: 'bold',
             fontSize: '20px',
+            textDecoration: 'none',
             '&:focus': {
                 outlineStyle: 'dotted',
                 outlineWidth: '4px',
-                outlineColor: 'secondary'
+                outlineColor: 'secondary',
             },
             '&:hover': {
                 color: 'primary',
