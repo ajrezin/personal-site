@@ -9,9 +9,7 @@ import IconButton from '../buildingBlocks/iconButton';
 
 
 
-export default function NavbarMobile() {
-    // const [menuStatus, setMenuStatus] = useColorMode()
-    // const nextColorMode = colorMode === 'light' ? 'dark' : 'light'
+export default function NavbarMobile(props) {
     const [menuVisible, makeMenuVisible] = useState(false);
     const { theme } = useThemeUI()
 
@@ -23,7 +21,8 @@ export default function NavbarMobile() {
                     justifyContent: 'space-between',
                     width: '100%',
                     // backgroundColor: '#dcd8cc',
-                    padding: '20px 20px'
+                    padding: '20px 20px',
+                    display: ['null', 'none', 'none']
                 }}>
                 <ColorModeToggle />
                 <IconButton
@@ -53,10 +52,7 @@ export default function NavbarMobile() {
                         }
                     }}
                 >
-                    <Link to='/' sx={{ variant: 'styles.navLink' }}>Home</Link>
-                    <Link to='/resources' sx={{ variant: 'styles.navLink' }}>Resources</Link>
-                    <Link to='/accessibility' sx={{ variant: 'styles.navLink' }}>Accessibility</Link>
-                    <a href="https://resume.arielrezin.com" sx={{ variant: 'styles.navLink' }}>Resume</a>
+                    {props.links}
                     <Flex sx={{ width: '100%', justifyContent: 'end', px: '15px', py: '5px' }}>
                         <IconButton
                             aria-label='close navigation menu'

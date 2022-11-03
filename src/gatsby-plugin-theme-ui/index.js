@@ -13,10 +13,11 @@ export default {
                 background: '#41473A',
                 primary: '#ecb64b',
                 secondary: '#a499fe',
-                muted: '#606a57',
+                muted: '#3e572a',
             }
         },
     },
+    breakpoints: [40, 52, 64].map((n) => n + 'em'),
     space: [
         0,
         4,
@@ -152,10 +153,17 @@ export default {
             maxWidth: '100%'
         },
         navLink: {
-            variant: 'link',
-            color: 'primary',
+            color: 'text',
             fontWeight: 'bold',
             fontSize: '20px',
+            '&:focus': {
+                outlineStyle: 'dotted',
+                outlineWidth: '4px',
+                outlineColor: 'secondary'
+            },
+            '&:hover': {
+                color: 'primary',
+            },
         },
     }
 }

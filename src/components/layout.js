@@ -12,6 +12,7 @@ import { SkipNavLink, SkipNavContent } from "@reach/skip-nav";
 import "@reach/skip-nav/styles.css";
 import NavbarWeb from "./footerContent/navbarWeb"
 import NavbarMobile from "./footerContent/navbarMobile"
+import NavLinks from "./footerContent/navLinks"
 import Copywrite from "./footerContent/copywrite"
 
 const Layout = ({ children }) => {
@@ -55,8 +56,8 @@ const Layout = ({ children }) => {
           // flexDirection: ['column', 'row'],
         }}>
         <SkipNavContent />
-        <NavbarWeb />
-        {/* <NavbarMobile /> */}
+        <NavbarWeb links={<NavLinks />} />
+        <NavbarMobile links={<NavLinks />} />
         <Copywrite />
       </footer>
     </div >
