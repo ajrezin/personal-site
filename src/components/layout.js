@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
           display: 'flex',
           justifyContent: 'center',
           overflow: 'scroll',
-          height: ['calc(100vh - 62px)', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
+          height: ['calc(100vh - 82px)', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
         }}>
         <SkipNavLink sx={{ variant: 'skipLink', position: 'absolute', top: '0' }}>
           Skip to navigation bar
@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
       </main>
       <footer
         sx={{
-          padding: ['15px 20px 15px', '20px 15px 20px', '15px 15px 5px'],
+          padding: ['25px 25px 25px', '20px 15px 20px', '15px 15px 5px'],
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',

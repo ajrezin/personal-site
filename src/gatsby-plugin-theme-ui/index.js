@@ -6,7 +6,7 @@ export default {
         background: '#f5f2e4',
         primary: '#a25c01',
         secondary: '#7a6ac0',
-        muted: '#e9e1c9',
+        muted: '#F4F0E3',
         modes: {
             dark: {
                 text: '#FCFCDC',
@@ -74,18 +74,6 @@ export default {
             outlineColor: 'secondary',
             backgroundColor: 'text',
             color: 'background'
-        },
-    },
-    buttons: {
-        icon: {
-            '&:focus': {
-                outlineStyle: 'dotted',
-                outlineWidth: '4px',
-                outlineColor: 'secondary'
-            },
-            '&:hover': {
-                color: 'primary'
-            },
         },
     },
     styles: {

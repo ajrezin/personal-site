@@ -8,7 +8,7 @@ export default function IconButton(props) {
         <ThemedIconButton
             {...props}
             sx={{
-                '&:focus': {
+                '&:focus-visible': {
                     outlineStyle: 'dotted',
                     outlineWidth: '4px',
                     outlineColor: 'secondary'

@@ -50,7 +50,7 @@ export default function NavbarMobile(props) {
                     }}
                 >
                     {props.links}
-                    <Flex sx={{ width: '100%', justifyContent: 'end', px: '15px', py: '5px' }}>
+                    <Flex sx={{ width: '100%', justifyContent: 'end', px: '5px', py: '5px' }}>
                         <IconButton
                             aria-label='close navigation menu'
                             onClick={() => makeMenuVisible(!menuVisible)}

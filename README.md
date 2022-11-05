@@ -4,7 +4,6 @@ This is my personal website that I started building in 2020 to further my unders
 
 ## 📙 Todo
 
-1. Make sure the navbar never requires scrolling to view
 1. List some of the intentional choices I've made to improve site accessibility on my accessibility page
   1. Atkinson Hyperlegible
   1. Skip-links
