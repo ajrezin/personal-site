@@ -41,7 +41,7 @@ export default function NavbarMobile(props) {
                             border: 'none',
                             background: theme.colors.muted,
                             borderRadius: 'none',
-                            padding: '20px',
+                            padding: '10px 20px 10px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'end',
