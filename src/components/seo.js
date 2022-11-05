@@ -35,7 +35,7 @@ function SEO({ description, lang, meta, title }) {
       }}
       title={title}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
-      link rel="canonical" href="http://arielrezin.com"
+      // link rel="canonical" href="http://arielrezin.com" // this line was throwing an error bc it expected an array but was getting a boolean?? idk bro
       meta={
         [
           {
