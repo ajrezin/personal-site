@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 /** @jsx jsx */
-import { Flex, jsx } from 'theme-ui'
+import { Flex, jsx, useThemeUI } from 'theme-ui'
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 import { SkipNavLink, SkipNavContent } from "@reach/skip-nav";
@@ -16,6 +16,7 @@ import NavLinks from "./footerContent/navLinks"
 import Copywrite from "./footerContent/copywrite"
 
 const Layout = ({ children }) => {
+  const { theme } = useThemeUI()
   // const data = useStaticQuery(graphql`
   //   query SiteTitleQuery {
   //     site {
@@ -36,8 +37,9 @@ const Layout = ({ children }) => {
           width: '100%',
           display: 'flex',
           justifyContent: 'center',
-          overflow: 'scroll',
-          height: ['calc(100vh - 82px)', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
+          overflow: 'auto',
+          height: ['calc(100vh - 62px)', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
+          // height: ['calc(-webkit-fill-available - 62px)', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
         }}>
         <SkipNavLink sx={{ variant: 'skipLink', position: 'absolute', top: '0' }}>
           Skip to navigation bar
@@ -46,7 +48,7 @@ const Layout = ({ children }) => {
       </main>
       <footer
         sx={{
-          padding: ['25px 25px 25px', '20px 15px 20px', '15px 15px 5px'],
+          padding: ['15px 25px 15px', '20px 15px 20px', '15px 15px 5px'],
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -55,6 +57,7 @@ const Layout = ({ children }) => {
           width: '100%',
           position: 'fixed',
           bottom: '0',
+          backgroundColor: theme.colors.background,
         }}>
         <SkipNavContent sx={{ position: 'absolute', top: '0' }} />
         <NavbarWeb links={<NavLinks />} />

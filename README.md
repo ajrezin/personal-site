@@ -4,6 +4,7 @@ This is my personal website that I started building in 2020 to further my unders
 
 ## 📙 Todo
 
+1. * Fix the height issue on mobile devices where the vh is smaller than computed and content is hidden behind the navbar *
 1. Add an easily-accessible way to contact me
 1. Create a way to automatically display and filter cool sites/resources on the resources page
 1. Redo landing page with a photo of ME !

@@ -49,7 +49,7 @@ const IndexPage = () => (
           &nbsp;alive, I spend my time going down research rabbit holes and working on personal projects.
         </p>
       </div>
-      <Flex sx={{ marginTop: 4, justifyContent: 'center', gap: ['40px', '30px', '15px'] }}>
+      <Flex sx={{ marginY: 4, justifyContent: 'center', gap: ['40px', '30px', '15px'] }}>
         <IconButton
           sx={{ cursor: 'pointer', '&:hover': { color: 'primary' } }}
           variant="link"

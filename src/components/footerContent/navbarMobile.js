@@ -20,7 +20,7 @@ export default function NavbarMobile(props) {
                     alignItems: 'center',
                     justifyContent: 'space-between',
                     width: '100%',
-                    display: ['null', 'none', 'none']
+                    display: ['null', 'none', 'none'],
                 }}>
                 <ColorModeToggle />
                 <IconButton
