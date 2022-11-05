@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Ariel Rezin",
   "dependencies": {
+    "@fontsource/atkinson-hyperlegible": "^4.5.10",
     "@reach/skip-nav": "^0.15.3",
     "@theme-ui/presets": "^0.9.1",
     "gatsby": "^3.7.2",
