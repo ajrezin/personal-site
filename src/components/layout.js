@@ -9,6 +9,7 @@ import { Flex, jsx, useThemeUI } from 'theme-ui'
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 import { SkipNavLink, SkipNavContent } from "@reach/skip-nav";
+import { use100vh } from 'react-div-100vh'
 import "@reach/skip-nav/styles.css";
 import NavbarWeb from "./footerContent/navbarWeb"
 import NavbarMobile from "./footerContent/navbarMobile"
@@ -16,7 +17,17 @@ import NavLinks from "./footerContent/navLinks"
 import Copywrite from "./footerContent/copywrite"
 
 const Layout = ({ children }) => {
-  const { theme } = useThemeUI()
+  const { theme } = useThemeUI();
+  const responsiveHeight = use100vh();
+
+  const mobileNavbarHeight = 62;
+  const medNavbarHeight = 72;
+  const fullNavbarHeight = 78.5;
+
+  const mobileHeightVal = responsiveHeight ? (responsiveHeight - mobileNavbarHeight + 'px') : '75vh';
+  const medHeightVal = responsiveHeight ? (responsiveHeight - medNavbarHeight + 'px') : '75vh';
+  const fullHeightVal = responsiveHeight ? (responsiveHeight - fullNavbarHeight + 'px') : '75vh';
+
   // const data = useStaticQuery(graphql`
   //   query SiteTitleQuery {
   //     site {
@@ -30,7 +41,7 @@ const Layout = ({ children }) => {
   return (
     <div
       sx={{
-        height: '100vh',
+        height: responsiveHeight,
       }}>
       <main
         sx={{
@@ -38,8 +49,9 @@ const Layout = ({ children }) => {
           display: 'flex',
           justifyContent: 'center',
           overflow: 'auto',
-          height: ['calc(100vh - 62px)', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
-          // height: ['calc(-webkit-fill-available - 62px)', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
+          // height: ['calc(100vh - 62px)', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
+          // height: [mobileHeightVal, medHeightVal, fullHeightVal],
+          height: [mobileHeightVal, 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
         }}>
         <SkipNavLink sx={{ variant: 'skipLink', position: 'absolute', top: '0' }}>
           Skip to navigation bar
