@@ -43,7 +43,7 @@ export default {
         32,
         48,
         64,
-        96
+        96,
     ],
     fontWeights: {
         body: 400,
@@ -141,11 +141,13 @@ export default {
             color: 'text',
             fontFamily: 'body',
             fontWeight: 'body',
-            lineHeight: 'body'
+            lineHeight: 'body',
+            // fontSize: 4 // TODO figure out how to increase default <p> size... I want it larger
         },
         a: {
             color: 'primary',
-            variant: "link"
+            variant: "link",
+
         },
         code: {
             fontFamily: 'monospace',

@@ -14,7 +14,7 @@ const IndexPage = () => (
       sx={{
         flexDirection: 'column',
         alignItems: 'center',
-        width: ['90%', '50%', '50%'],
+        width: ['90%', '80%', '50%'],
       }}>
       <h1 sx={{ fontSize: 7, marginBottom: 0, letterSpacing: 2, textAlign: 'center' }}>
         Hi, I&apos;m Ariel
@@ -47,7 +47,7 @@ const IndexPage = () => (
           &nbsp;alive, I spend my time going down research rabbit holes and working on personal projects.
         </p>
       </div>
-      <div sx={{ marginTop: 4 }}>
+      <Flex sx={{ marginTop: 4, justifyContent: 'center', gap: ['40px', '30px', '15px'] }}>
         <IconButton
           sx={{ cursor: 'pointer', '&:hover': { color: 'primary' } }}
           variant="link"
@@ -63,7 +63,7 @@ const IndexPage = () => (
           onClick={() => { window.open('https://linkedin.com/in/arielrezin') }}>
           <FiLinkedin size="24" />
         </IconButton>
-      </div>
+      </Flex>
     </Flex>
   </Layout >
 )
