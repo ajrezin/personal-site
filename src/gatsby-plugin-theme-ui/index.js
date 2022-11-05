@@ -30,8 +30,8 @@ export default {
         512
     ],
     fonts: {
-        body: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
-        heading: 'inherit',
+        body: '"Atkinson Hyperlegible", system-ui',
+        heading: '"Atkinson Hyperlegible", system-ui',
         monospace: 'Menlo, monospace'
     },
     fontSizes: [
@@ -46,9 +46,8 @@ export default {
         96
     ],
     fontWeights: {
-        body: 500,
+        body: 400,
         heading: 700,
-        medium: 600,
         bold: 700
     },
     lineHeights: {
@@ -56,10 +55,13 @@ export default {
         heading: 1.125
     },
     link: {
-        '&:focus': {
+        '&:focus-visible': {
             outlineStyle: 'dotted',
             outlineWidth: '4px',
-            outlineColor: 'secondary'
+            outlineColor: 'secondary',
+            // the below lines invert the background and text color, I am still deciding if I want to switch my focus style to that
+            // backgroundColor: 'text',
+            // color: 'background'
         },
         '&:hover': {
             color: 'text',
@@ -157,12 +159,12 @@ export default {
             fontWeight: 'bold',
             fontSize: '20px',
             textDecoration: 'none',
-            '&:focus': {
+            '&:focus-visible': {
                 outlineStyle: 'dotted',
                 outlineWidth: '4px',
                 outlineColor: 'secondary',
             },
-            '&:hover': {
+            '&:hover, &:focus-visible': {
                 color: 'primary',
             },
         },

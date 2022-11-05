@@ -1,9 +1,12 @@
 ## Todo
 
 1. Make sure the navbar never requires scrolling to view
-1. Remove navbar link underlines
-1. Add active variant and/or animation for navbar links
+1. List some of the intentional choices I've made to improve site accessibility on my accessibility page
+  1. Atkinson Hyperlegible
+  1. Skip-links
+1. Add animation for navbar links
 1. Create a way to automatically display and filter cool sites/resources
+1. Add an option to switch the site to the dyslexia-friendly font
 1. Add an easily-accessible way to contact me
 1. Redo landing page with a photo of ME !
 

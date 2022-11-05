@@ -1,9 +1,8 @@
 /** @jsx jsx */
-import { Box, Close, Flex, jsx, MenuButton, useThemeUI } from "theme-ui"
+import { Flex, jsx, useThemeUI } from "theme-ui"
 import { IoClose, IoMenu } from 'react-icons/io5'
 import React, { useState } from "react"
 import ReactModal from 'react-modal';
-import { Link } from "gatsby"
 import ColorModeToggle from "./colorModeToggle"
 import IconButton from '../buildingBlocks/iconButton';
 
