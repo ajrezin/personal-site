@@ -20,7 +20,7 @@ This is my personal website that I started building in 2020 to further my unders
    - especially noticeable on dark mode
    - common issue, should be an easy fix
 
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<!-- AUTO-GENERATED-CONTENT:START (GATSBY STARTER) -->
 
 ## 🚀 Gatsby Quick start
 
