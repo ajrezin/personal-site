@@ -14,7 +14,7 @@ export default function NavLinks() {
             <a href="https://resume.arielrezin.com" sx={{ variant: 'styles.navLink' }}>Resume</a>
 
             {/* The link below is a temp page to make local development easier */}
-            <Link to='/test' activeStyle={{ color: theme.colors.primary }} sx={{ variant: 'styles.navLink' }}>Test</Link>
+            {/* <Link to='/test' activeStyle={{ color: theme.colors.primary }} sx={{ variant: 'styles.navLink' }}>Test</Link> */}
         </>
     );
 }

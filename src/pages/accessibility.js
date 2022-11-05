@@ -15,7 +15,7 @@ const A11yPage = () => (
         marginTop: 'auto',
         marginBottom: 'auto'
       }}>
-      <h1 sx={{ marginY: '10px' }}>Accessibility</h1>
+      <h1 sx={{ marginY: '10px' }}>Accessibility (A11y)</h1>
       {/* <h2 sx={{ marginY: '10px' }}>(A11y)</h2> */}
       <span role='region' sx={{ textAlign: 'center' }}>
         <p>
