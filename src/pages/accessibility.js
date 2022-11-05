@@ -8,11 +8,12 @@ const A11yPage = () => (
   <Layout>
     <SEO title="Accessibility" />
     <Flex
-      role='main'
       sx={{
         flexDirection: 'column',
         alignItems: 'center',
         width: ['90%', '50%', '50%'],
+        marginTop: 'auto',
+        marginBottom: 'auto'
       }}>
       <h1 sx={{ marginBottom: 0 }}>Accessibility</h1>
       <h2>(A11y)</h2>

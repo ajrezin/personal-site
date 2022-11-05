@@ -5,10 +5,10 @@ import SEO from "../components/seo"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
-    <Flex sx={{ flexDirection: 'column' }}>
+    <SEO title="404 Not found" />
+    <Flex sx={{ flexDirection: 'column', alignItems: 'center', marginTop: 'auto', marginBottom: 'auto' }}>
       <h1>404: Not Found</h1>
-      <p>You just tried to access a page that doesn&#39;t exist... how sad :(</p>
+      <p>You just tried to access a page that doesn&apos;t exist... that&apos;s unfortunate :(</p>
     </Flex>
   </Layout>
 )

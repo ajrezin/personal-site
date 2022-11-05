@@ -15,6 +15,8 @@ const IndexPage = () => (
         flexDirection: 'column',
         alignItems: 'center',
         width: ['90%', '80%', '50%'],
+        marginTop: 'auto',
+        marginBottom: 'auto'
       }}>
       <h1 sx={{ fontSize: 7, marginBottom: 0, letterSpacing: 2, textAlign: 'center' }}>
         Hi, I&apos;m Ariel

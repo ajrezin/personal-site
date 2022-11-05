@@ -28,34 +28,35 @@ const Layout = ({ children }) => {
 
   return (
     <div
-      style={{
-        display: 'flex',
-        minHeight: '100vh',
-        flexDirection: 'column',
+      sx={{
+        height: '100vh',
       }}>
       <main
-        style={{
-          flexGrow: 1,
+        sx={{
+          width: '100%',
           display: 'flex',
           justifyContent: 'center',
-          alignItems: 'center'
+          overflow: 'scroll',
+          height: ['calc(100vh - 62px)', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
         }}>
-        <SkipNavLink sx={{ variant: 'skipLink' }}>
+        <SkipNavLink sx={{ variant: 'skipLink', position: 'absolute', top: '0' }}>
           Skip to navigation bar
         </SkipNavLink>
         {children}
       </main>
       <footer
         sx={{
-          padding: '15px 15px 5px',
+          padding: ['15px 20px 15px', '20px 15px 20px', '15px 15px 5px'],
           display: 'flex',
-          flexWrap: 'wrap',
-          justifyContent: 'space-between',
+          justifyContent: 'center',
           alignItems: 'center',
           flexDirection: 'column',
-          // flexDirection: ['column', 'row'],
+          gap: '10px',
+          width: '100%',
+          position: 'fixed',
+          bottom: '0',
         }}>
-        <SkipNavContent />
+        <SkipNavContent sx={{ position: 'absolute', top: '0' }} />
         <NavbarWeb links={<NavLinks />} />
         <NavbarMobile links={<NavLinks />} />
         <Copywrite />

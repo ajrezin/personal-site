@@ -12,6 +12,9 @@ export default function NavLinks() {
             <Link to='/resources' activeStyle={{ color: theme.colors.primary }} sx={{ variant: 'styles.navLink' }}>Resources</Link>
             <Link to='/accessibility' activeStyle={{ color: theme.colors.primary }} sx={{ variant: 'styles.navLink' }}>Accessibility</Link>
             <a href="https://resume.arielrezin.com" sx={{ variant: 'styles.navLink' }}>Resume</a>
+
+            {/* The link below is a temp page to make local development easier */}
+            {/* <Link to='/test' activeStyle={{ color: theme.colors.primary }} sx={{ variant: 'styles.navLink' }}>Test</Link> */}
         </>
     );
 }

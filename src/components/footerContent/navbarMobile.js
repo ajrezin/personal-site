@@ -19,15 +19,13 @@ export default function NavbarMobile(props) {
                     alignItems: 'center',
                     justifyContent: 'space-between',
                     width: '100%',
-                    // backgroundColor: '#dcd8cc',
-                    padding: '20px 20px',
                     display: ['null', 'none', 'none']
                 }}>
                 <ColorModeToggle />
                 <IconButton
                     aria-label='open navigation menu'
                     onClick={() => makeMenuVisible(!menuVisible)}
-                    contents={<IoMenu font-size='40' />}
+                    contents={<IoMenu fontSize='40' />}
                 />
                 <ReactModal
                     isOpen={menuVisible}
@@ -56,7 +54,7 @@ export default function NavbarMobile(props) {
                         <IconButton
                             aria-label='close navigation menu'
                             onClick={() => makeMenuVisible(!menuVisible)}
-                            contents={<IoClose font-size='40' />}
+                            contents={<IoClose fontSize='40' />}
                         />
                     </Flex>
                 </ReactModal>

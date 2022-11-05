@@ -12,7 +12,6 @@ export default function NavbarWeb(props) {
                     alignItems: 'center',
                     justifyContent: 'space-evenly',
                     width: ['100%', '100%', '80%', '60%', '50%'],
-                    padding: '10px 0px 20px',
                 }}>
                 <ColorModeToggle />
                 {props.links}

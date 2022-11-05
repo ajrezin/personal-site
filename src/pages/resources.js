@@ -9,11 +9,12 @@ const ResourcePage = () => (
   <Layout>
     <SEO title="Resources" />
     <Flex
-      role='main'
       sx={{
         flexDirection: 'column',
         alignItems: 'center',
         width: ['90%', '50%', '50%'],
+        marginTop: 'auto',
+        marginBottom: 'auto'
       }}>
 
       <div role='region'>
