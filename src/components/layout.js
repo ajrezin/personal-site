@@ -19,15 +19,9 @@ import Copywrite from "./footerContent/copywrite"
 const Layout = ({ children }) => {
   const { theme } = useThemeUI();
   const responsiveHeight = use100vh();
-
   const mobileNavbarHeight = 62;
-  const medNavbarHeight = 72;
-  const fullNavbarHeight = 78.5;
-
   const mobileHeightVal = responsiveHeight ? (responsiveHeight - mobileNavbarHeight + 'px') : '75vh';
-  const medHeightVal = responsiveHeight ? (responsiveHeight - medNavbarHeight + 'px') : '75vh';
-  const fullHeightVal = responsiveHeight ? (responsiveHeight - fullNavbarHeight + 'px') : '75vh';
-
+  const responsiveHeightVal = responsiveHeight + 'px';
   // const data = useStaticQuery(graphql`
   //   query SiteTitleQuery {
   //     site {
@@ -41,7 +35,9 @@ const Layout = ({ children }) => {
   return (
     <div
       sx={{
-        height: responsiveHeight,
+        // height: [responsiveHeightVal, '100vh', '100vh'],
+        // height: '100vh',
+        // height: '100%',
       }}>
       <main
         sx={{
@@ -49,9 +45,10 @@ const Layout = ({ children }) => {
           display: 'flex',
           justifyContent: 'center',
           overflow: 'auto',
-          // height: ['calc(100vh - 62px)', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
-          // height: [mobileHeightVal, medHeightVal, fullHeightVal],
-          height: [mobileHeightVal, 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
+          // height: [mobileHeightVal, 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
+          // height: [responsiveHeightVal, ]
+          minHeight: ['100vh', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
+          marginBottom: ['62px', '72px', '78.5px'],
         }}>
         <SkipNavLink sx={{ variant: 'skipLink', position: 'absolute', top: '0' }}>
           Skip to navigation bar
