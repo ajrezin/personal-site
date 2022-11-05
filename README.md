@@ -4,14 +4,16 @@ This is my personal website that I started building in 2020 to further my unders
 
 ## 📙 Todo
 
+1. Add an easily-accessible way to contact me
+1. Create a way to automatically display and filter cool sites/resources on the resources page
+1. Redo landing page with a photo of ME !
 1. List some of the intentional choices I've made to improve site accessibility on my accessibility page
   1. Atkinson Hyperlegible
   1. Skip-links
+  1. Accessible color palettes
+  1. Focus indicators w/ focus-visible pseudo class
 1. Add animation for navbar links
-1. Create a way to automatically display and filter cool sites/resources
 1. Add an option to switch the site to the dyslexia-friendly font
-1. Add an easily-accessible way to contact me
-1. Redo landing page with a photo of ME !
 
 ## 🪲 Known Bugs
 
