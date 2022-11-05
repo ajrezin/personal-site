@@ -10,7 +10,8 @@ import IconButton from '../buildingBlocks/iconButton';
 
 export default function NavbarMobile(props) {
     const [menuVisible, makeMenuVisible] = useState(false);
-    const { theme } = useThemeUI()
+    const { theme } = useThemeUI();
+    ReactModal.setAppElement('#___gatsby');
 
     return (
         <>
