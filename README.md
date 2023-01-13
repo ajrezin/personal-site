@@ -9,11 +9,12 @@ This is my personal website that I started building in 2020 to further my unders
    - Atkinson Hyperlegible
    - Skip-links
    - Accessible color palettes
-   - Focus indicators w/ focus-visible pseudo classAdd an easily-accessible way to contact me
+   - Focus indicators w/ focus-visible pseudo class
+1. Add an easily-accessible way to contact me
 1. Create a way to automatically display and filter cool sites/resources on the resources page
 1. Make sure the default font size is 16px, 18px, or 20px
 1. Keep line lengths around 70 characters at most by setting `max-width: 70ch;` in the css
-1. Give the mobile and web navbars the <nav> tag or otherwise specify that they are nav elements to make them more accessible
+1. ~~Give the mobile and web navbars the <nav> tag or otherwise specify that they are nav elements to make them more accessible~~
 1. Make sure all images/logos are <svg> elements and not font glyphs, which are very inaccessible
 1. Redo landing page with a photo of ME !
 1. Add animation for navbar links

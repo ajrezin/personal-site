@@ -15,6 +15,7 @@ const IndexPage = () => (
         flexDirection: 'column',
         alignItems: 'center',
         width: ['90%', '80%', '50%'],
+        maxWidth: '70ch',
         marginTop: 'auto',
         marginBottom: 'auto'
       }}>

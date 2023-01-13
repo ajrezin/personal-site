@@ -13,6 +13,7 @@ const TestPage = () => (
         flexDirection: 'column',
         alignItems: 'center',
         width: ['90%', '50%', '50%'],
+        maxWidth: '70ch',
         marginTop: 'auto',
         marginBottom: 'auto',
       }}>

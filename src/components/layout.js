@@ -33,17 +33,15 @@ const Layout = ({ children }) => {
 
   return (
     <div>
-      <div
-        sx={{
-          display: 'flex',
-          minHeight: '100vh',
-        }}>
+      <div sx={{ display: 'flex', height: '100vh' }}>
         <NavbarWeb links={<NavLinks />} />
         <div
           sx={{
             display: 'flex',
             flexDirection: 'column',
             width: '100%',
+            marginBottom: ['73px', '0px', '0px'],
+            overflow: 'auto',
           }}>
           <main
             sx={{
@@ -51,7 +49,6 @@ const Layout = ({ children }) => {
               display: 'flex',
               justifyContent: 'center',
               width: '100%',
-              overflow: 'auto',
             }}>
             {children}
           </main>
@@ -66,13 +63,10 @@ const Layout = ({ children }) => {
         sx={{
           padding: '15px 25px 15px',
           display: ['flex', 'none', 'none'],
-          justifyContent: 'center',
-          alignItems: 'center',
-          flexDirection: 'column',
-          gap: '10px',
           width: '100%',
           position: 'fixed',
           bottom: '0',
+          backgroundColor: 'background'
         }}>
         <NavbarMobile links={<NavLinks />} />
       </footer>
