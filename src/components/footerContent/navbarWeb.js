@@ -9,12 +9,23 @@ export default function NavbarWeb(props) {
             <Box
                 sx={{
                     display: ['none', 'Flex', 'Flex'],
-                    alignItems: 'center',
-                    justifyContent: 'space-evenly',
-                    width: ['100%', '100%', '80%', '60%', '50%'],
+                    flexDirection: 'column',
+                    minWidth: 'min-content',
+                    padding: '20px 20px 20px',
+                    gap: '10px',
+                    justifyContent: 'space-between',
+                    backgroundColor: 'muted'
                 }}>
+                <nav
+                    sx={{
+                        display: 'Flex',
+                        flexDirection: 'column',
+                        minWidth: 'min-content',
+                        gap: '10px',
+                    }}>
+                    {props.links}
+                </nav>
                 <ColorModeToggle />
-                {props.links}
             </Box>
         </>
     );

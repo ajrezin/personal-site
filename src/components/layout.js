@@ -8,7 +8,6 @@
 import { Flex, jsx, useThemeUI } from 'theme-ui'
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
-import { SkipNavLink, SkipNavContent } from "@reach/skip-nav";
 import { use100vh } from 'react-div-100vh'
 import "@reach/skip-nav/styles.css";
 import NavbarWeb from "./footerContent/navbarWeb"
@@ -34,24 +33,39 @@ const Layout = ({ children }) => {
 
   return (
     <div>
-      <main
+      <div
         sx={{
-          width: '100%',
           display: 'flex',
-          justifyContent: 'center',
-          overflow: 'auto',
-          minHeight: ['100vh', 'calc(100vh - 72px)', 'calc(100vh - 78.5px)'],
-          marginBottom: ['62px', '72px', '78.5px'],
+          minHeight: '100vh',
         }}>
-        <SkipNavLink sx={{ variant: 'skipLink', position: 'absolute', top: '0' }}>
-          Skip to navigation bar
-        </SkipNavLink>
-        {children}
-      </main>
+        <NavbarWeb links={<NavLinks />} />
+        <div
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            width: '100%',
+          }}>
+          <main
+            sx={{
+              flex: '1 1 auto',
+              display: 'flex',
+              justifyContent: 'center',
+              width: '100%',
+              overflow: 'auto',
+            }}>
+            {children}
+          </main>
+          {/* This footer is only displayed on large screens */}
+          <footer sx={{ padding: '15px 15px 5px', display: ['none', 'none', 'flex'] }}>
+            <Copywrite />
+          </footer>
+        </div>
+      </div>
+      {/* This footer is only displayed on small screens */}
       <footer
         sx={{
-          padding: ['15px 25px 15px', '20px 15px 20px', '15px 15px 5px'],
-          display: 'flex',
+          padding: '15px 25px 15px',
+          display: ['flex', 'none', 'none'],
           justifyContent: 'center',
           alignItems: 'center',
           flexDirection: 'column',
@@ -59,12 +73,8 @@ const Layout = ({ children }) => {
           width: '100%',
           position: 'fixed',
           bottom: '0',
-          backgroundColor: theme.colors.background,
         }}>
-        <SkipNavContent sx={{ position: 'absolute', top: '0' }} />
-        <NavbarWeb links={<NavLinks />} />
         <NavbarMobile links={<NavLinks />} />
-        <Copywrite />
       </footer>
     </div >
   )

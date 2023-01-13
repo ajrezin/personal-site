@@ -4,9 +4,9 @@ export default {
     colors: {
         text: '#455300',
         background: '#f5f2e4',
-        primary: '#a25c01',
+        primary: '#894E01',
         secondary: '#7a6ac0',
-        muted: '#faf3d3',
+        muted: '#E6DDD1',
         modes: {
             dark: {
                 text: '#FCFCDC',
