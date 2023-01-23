@@ -44,7 +44,7 @@ const IndexPage = () => (
           When I&apos;m not busy&nbsp;
           <LinkOpensInNewTab link="https://youbrewkombucha.com/kombucha-quick-start-guide" text="making kombucha" />,
           working with&nbsp;
-          <LinkOpensInNewTab link="https://www.instagram.com/gilthepoodle/" text="my dog" />
+          <LinkOpensInNewTab link="https://arielrezinn.github.io/pedigree/" text="my dog" />
           , or trying to keep&nbsp;
           <LinkOpensInNewTab link="https://greg.app/ariel/" text="my plants" />
           &nbsp;alive, I spend my time going down research rabbit holes and working on personal projects.
