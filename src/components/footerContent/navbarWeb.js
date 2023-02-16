@@ -7,6 +7,7 @@ export default function NavbarWeb(props) {
     return (
         <>
             <Box
+                role="banner"
                 sx={{
                     display: ['none', 'Flex', 'Flex'],
                     flexDirection: 'column',

@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 /** @jsx jsx */
-import { Flex, jsx, useThemeUI } from 'theme-ui'
+import { jsx, useThemeUI } from 'theme-ui'
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 import { use100vh } from 'react-div-100vh'

@@ -5,12 +5,13 @@ This is my personal website that I started building in 2020 to further my unders
 ## 📙 Todo
 
 1. ~~Fix the height issue on mobile devices where the vh is smaller than computed and content is hidden behind the navbar~~
+1. Make the embedded pdf of my resume accessible to screen reader users
 1. List some of the intentional choices I've made to improve site accessibility on my accessibility page
    - Atkinson Hyperlegible
-   - Skip-links
    - Accessible color palettes
    - Focus indicators w/ focus-visible pseudo class
-1. Add an easily-accessible way to contact me
+1. Add an easily-accessible way to contact me (like a form or smth)
+1. Figure out if/how to add skip links back in
 1. Create a way to automatically display and filter cool sites/resources on the resources page
 1. Make sure the default font size is 16px, 18px, or 20px
 1. Keep line lengths around 70 characters at most by setting `max-width: 70ch;` in the css

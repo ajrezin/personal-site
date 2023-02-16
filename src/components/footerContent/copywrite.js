@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { Box, jsx } from "theme-ui"
+import { jsx } from "theme-ui"
 import React from "react"
 
 const Copywrite = () => (
@@ -11,7 +11,7 @@ const Copywrite = () => (
                 display: ['none', 'none', 'Flex'],
             }}>
             <span sx={{ fontSize: '11px' }}>
-                &copy; {new Date().getFullYear()}, built with &hearts; by Ariel Rezin and licensed under&nbsp;
+                <span>&copy; {new Date().getFullYear()}, built by Ariel Rezin and licensed under&nbsp;</span>
                 <a sx={{ color: 'text', '&:visited': { color: 'text' } }} href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY-NC-SA 4.0</a>
             </span>
         </div>
