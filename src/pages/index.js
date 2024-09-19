@@ -3,7 +3,6 @@ import { jsx } from 'theme-ui'
 import { Flex, IconButton } from "theme-ui"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Themed } from '@theme-ui/mdx'
 import LinkOpensInNewTab from '../components/buildingBlocks/linkOpensInNewTab'
 import { FiGithub, FiLinkedin } from 'react-icons/fi'
 
@@ -23,9 +22,15 @@ const IndexPage = () => (
         Hi, I&apos;m Ariel
       </h1>
 
+      <h2 sx={{ fontSize: 2, marginTop: 0, letterSpacing: 2, textAlign: 'center' }}>
+        they/them
+      </h2>
+
+      {/*  This website is no longer maintained and the url expired :(
+           Until I find a replacement site, I'll just hardcode my pronouns.
       <div sx={{ fontWeight: 'bold', marginBottom: 3 }}>
         <Themed.a href="https://pronoun.is/they/">pronoun.is/they/them</Themed.a>
-      </div>
+      </div> */}
 
       <div role='region' style={{ textAlign: 'center' }}>
         <p>
@@ -36,18 +41,18 @@ const IndexPage = () => (
         <p>
           I&apos;m a software developer at&nbsp;
           <LinkOpensInNewTab link="https://sentry.com" text="Sentry Inc." />
-          &nbsp;with a Bachelor&apos;s degree in Computer Science from the University of Wisconsin-Madison. I also have
-          minors in Disability Rights & Services and German.
+          &nbsp;with a Bachelor&apos;s degree from the University of Wisconsin-Madison. While there,
+          I studied Computer Science, Disability Justice, and German.
         </p>
 
         <p>
-          When I&apos;m not busy&nbsp;
-          <LinkOpensInNewTab link="https://youbrewkombucha.com/kombucha-quick-start-guide" text="making kombucha" />,
-          going on hikes with&nbsp;
-          <LinkOpensInNewTab link="https://arielrezinn.github.io/pedigree/" text="my dog" />
-          , or trying to keep&nbsp;
-          <LinkOpensInNewTab link="https://greg.app/ariel/" text="my plants" />
-          &nbsp;alive, I spend my time going down research rabbit holes and working on personal projects.
+          When I&apos;m not going on hikes with&nbsp;
+          <LinkOpensInNewTab link="https://www.instagram.com/gilthepoodle/" text="my dog" />
+          , learning how to play&nbsp;
+          <LinkOpensInNewTab link="https://www.madisongayhockey.org/" text="hockey" />
+          , or teaching classes at&nbsp;
+          <LinkOpensInNewTab link="https://www.busydogtraining.com/" text="Busy Dog" />
+          , you'll find me going down research rabbit holes and working on personal projects.
         </p>
       </div>
       <Flex sx={{ marginY: 4, justifyContent: 'center', gap: ['40px', '30px', '15px'] }}>
