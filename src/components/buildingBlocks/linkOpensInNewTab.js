@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { MdOpenInNew } from 'react-icons/md'
-import { Themed } from 'theme-ui'
+import { Themed } from '@theme-ui/mdx'
 
 export default function LinkOpensInNewTab(props) {
     return (

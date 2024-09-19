@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui'
 import { Flex, IconButton } from "theme-ui"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Themed } from 'theme-ui'
+import { Themed } from '@theme-ui/mdx'
 import LinkOpensInNewTab from '../components/buildingBlocks/linkOpensInNewTab'
 import { FiGithub, FiLinkedin } from 'react-icons/fi'
 

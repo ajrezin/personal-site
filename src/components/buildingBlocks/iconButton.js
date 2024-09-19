@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { MdOpenInNew } from 'react-icons/md'
-import { IconButton as ThemedIconButton, Themed } from 'theme-ui'
+import { IconButton as ThemedIconButton } from 'theme-ui'
 
 export default function IconButton(props) {
     return (
