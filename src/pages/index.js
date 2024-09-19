@@ -34,16 +34,16 @@ const IndexPage = () => (
         </p>
 
         <p>
-          I&apos;m a developer at&nbsp;
+          I&apos;m a software developer at&nbsp;
           <LinkOpensInNewTab link="https://sentry.com" text="Sentry Inc." />
-          &nbsp;and study Computer Science, Disability Rights & Services, and German at the University of
-          Wisconsin-Madison.
+          &nbsp;with a Bachelor&apos;s degree in Computer Science from the University of Wisconsin-Madison. I also have
+          minors in Disability Rights & Services and German.
         </p>
 
         <p>
           When I&apos;m not busy&nbsp;
           <LinkOpensInNewTab link="https://youbrewkombucha.com/kombucha-quick-start-guide" text="making kombucha" />,
-          working with&nbsp;
+          going on hikes with&nbsp;
           <LinkOpensInNewTab link="https://arielrezinn.github.io/pedigree/" text="my dog" />
           , or trying to keep&nbsp;
           <LinkOpensInNewTab link="https://greg.app/ariel/" text="my plants" />

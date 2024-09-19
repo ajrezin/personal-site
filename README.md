@@ -17,7 +17,7 @@ This is my personal website that I started building in 2020 to further my unders
 1. Keep line lengths around 70 characters at most by setting `max-width: 70ch;` in the css
 1. Add [AAC Shim](https://tools.openaac.org) to this site to improve the experience for users of AAC
 1. ~~Give the mobile and web navbars the <nav> tag or otherwise specify that they are nav elements to make them more accessible~~
-1. Make sure all images/logos are <svg> elements and not font glyphs, which are very inaccessible
+1. Make sure all images/logos are svg elements and not font glyphs, which are very inaccessible
 1. Redo landing page with a photo of ME !
 1. Add animation for navbar links
 1. Add an option to switch the site to the dyslexia-friendly font
