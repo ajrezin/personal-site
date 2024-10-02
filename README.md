@@ -23,6 +23,14 @@ This is my personal website that I started building in 2020 to further my unders
 1. Add an option to switch the site to the dyslexia-friendly font
 1. Upgrade npm packages/dependencies
 
+## 🌟 Inspiration Sites
+
+- https://brucelawson.co.uk/
+- https://www.matuzo.at/
+- https://www.tatianamac.com/
+- https://cariefisher.com/
+- so, so, so many more
+
 ## 🪲 Known Bugs
 
 1. flash of light when loading page
