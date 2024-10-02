@@ -22,6 +22,8 @@ This is my personal website that I started building in 2020 to further my unders
 1. Add animation for navbar links
 1. Add an option to switch the site to the dyslexia-friendly font
 1. Upgrade npm packages/dependencies
+1. Add a page with they/them pronoun examples and FAQs
+   - Use info from https://lgbtresourcecenter.uccs.edu/pronouns-101
 
 ## 🌟 Inspiration Sites
 
