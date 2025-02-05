@@ -13,6 +13,7 @@ This is my personal website that I started building in 2020 to further my unders
 1. Add an easily-accessible way to contact me (like a form or smth)
 1. Figure out if/how to add skip links back in
 1. Create a way to automatically display and filter cool sites/resources on the resources page
+   - also make an easy way to add links to the page, without deploying anything
 1. Make sure the default font size is 16px, 18px, or 20px
 1. Keep line lengths around 70 characters at most by setting `max-width: 70ch;` in the css
 1. Add [AAC Shim](https://tools.openaac.org) to this site to improve the experience for users of AAC
@@ -38,6 +39,11 @@ This is my personal website that I started building in 2020 to further my unders
 1. flash of light when loading page
    - especially noticeable on dark mode
    - common issue, should be an easy fix
+   - note: this may have been fixed by a dependency the site consumes!
+
+## 💥 Resources to Add (At Some Point)
+
+- [https://brucelawson.co.uk/](https://www.accessguide.io/guide/hover-and-focus)
 
 <!-- AUTO-GENERATED-CONTENT:START (GATSBY STARTER) -->
 
