@@ -4,6 +4,10 @@ This is my personal website that I started building in 2020 to further my unders
 
 ## 📙 Todo
 
+1. Redesign/structure the core user experience
+   - Redo landing page with a photo of ME !
+   - Figure out the best way to display previews/info abt my projects on the site, instead of directing folks to Github
+   - Finish moving my resume over to https://jsonresume.org, then integrate its data into my site in a visually appealing way
 1. ~~Fix the height issue on mobile devices where the vh is smaller than computed and content is hidden behind the navbar~~
 1. Make the embedded pdf of my resume accessible to screen reader users
 1. List some of the intentional choices I've made to improve site accessibility on my accessibility page
@@ -19,7 +23,6 @@ This is my personal website that I started building in 2020 to further my unders
 1. Add [AAC Shim](https://tools.openaac.org) to this site to improve the experience for users of AAC
 1. ~~Give the mobile and web navbars the <nav> tag or otherwise specify that they are nav elements to make them more accessible~~
 1. Make sure all images/logos are svg elements and not font glyphs, which are very inaccessible
-1. Redo landing page with a photo of ME !
 1. Add animation for navbar links
 1. Add an option to switch the site to the dyslexia-friendly font
 1. Upgrade npm packages/dependencies
@@ -28,17 +31,21 @@ This is my personal website that I started building in 2020 to further my unders
 
 ## 🌟 Inspiration Sites
 
+A redesign needs to happen, here's some inspo:
+
 - https://brucelawson.co.uk/
 - https://www.matuzo.at/
 - https://www.tatianamac.com/
 - https://cariefisher.com/
+- https://brittanychiang.com
 - so, so, so many more
 
 ## 🪲 Known Bugs
 
-1. flash of light when loading page
-   - especially noticeable on dark mode
-   - common issue, should be an easy fix
+1. ~~flash of light when loading page~~
+   - ~~especially noticeable on dark mode~~
+   - ~~common issue, should be an easy fix~~
+   - I think this was fixed in one of the theme plugins I use, but I'm not totally sure.
    - note: this may have been fixed by a dependency the site consumes!
 
 ## 💥 Resources to Add (At Some Point)
