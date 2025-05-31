@@ -2,6 +2,9 @@
 
 This is my personal website that I started building in 2020 to further my understanding of accessible web development. Its's built from scratch using Gatsby and is a constant work in progress. If you have any suggestions for improvement, I'm happy to hear them!
 
+<img width="1232" alt="A website with information about AJ (formerly Ariel) Rezin" src="https://github.com/user-attachments/assets/4e70eb96-411e-48db-b630-a3d69dddb6a9" />
+
+
 ## How to Deploy Changes
 1. Make the changes locally (and commit to remote obvi)
 2. Run `npm run deploy`
