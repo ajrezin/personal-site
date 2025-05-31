@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkariel_rezin_site=self.webpackChunkariel_rezin_site||[]).push([[687],{9879:function(t,a,e){e.d(a,{JvP:function(){return i}});var h=e(2225);function i(t){return(0,h.k5)({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{fill:"none",d:"M0 0h24v24H0z"},child:[]},{tag:"path",attr:{d:"M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"},child:[]}]})(t)}}}]);
+//# sourceMappingURL=fea29d9f-55acac97b01835036e6d.js.map
