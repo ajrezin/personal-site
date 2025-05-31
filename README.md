@@ -2,6 +2,10 @@
 
 This is my personal website that I started building in 2020 to further my understanding of accessible web development. Its's built from scratch using Gatsby and is a constant work in progress. If you have any suggestions for improvement, I'm happy to hear them!
 
+## How to Deploy Changes
+1. Make the changes locally (and commit to remote obvi)
+2. Run `npm run deploy`
+
 ## 📙 Todo
 
 1. Redesign/structure the core user experience
