@@ -4,6 +4,7 @@ module.exports = {
     description: `Ariel Rezin's personal and professional website.`,
     author: `@arielrezin`,
   },
+  pathPrefix: "/personal-site",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
